@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Apr 18 10:08:33 GMT 2022","Mon Apr 18 10:08:34 GMT 2022","1468","","Validating Customer APIs","","Delete Customer data","","Delete Customer data",""
+"passed","Mon Apr 18 10:08:30 GMT 2022","Mon Apr 18 10:08:33 GMT 2022","2518","","Validating Customer APIs","","Verify Customer data modification","","Verify Customer data modification",""
+"passed","Mon Apr 18 10:08:25 GMT 2022","Mon Apr 18 10:08:30 GMT 2022","5007","","Validating Customer APIs","","Verify Customer data retrieval","","Verify Customer data retrieval",""
