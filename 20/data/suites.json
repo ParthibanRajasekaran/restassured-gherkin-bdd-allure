@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Validating Customer APIs",
+    "children" : [ {
+      "name" : "Verify Customer creation",
+      "uid" : "c3ac3c148252fc91",
+      "parentUid" : "2eb4e7cfc07b97db5ed522176bc58a07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651503645959,
+        "stop" : 1651503650340,
+        "duration" : 4381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "first name", "second name" ]
+    }, {
+      "name" : "Verify Customer creation",
+      "uid" : "21d92abf2dee008b",
+      "parentUid" : "2eb4e7cfc07b97db5ed522176bc58a07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651503650500,
+        "stop" : 1651503651623,
+        "duration" : 1123
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "second name", "first name" ]
+    } ],
+    "uid" : "2eb4e7cfc07b97db5ed522176bc58a07"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.java.com.template.project.features.Customer_feature.Validating Customer APIs",
+    "children" : [ {
+      "name" : "Verify Customer creation",
+      "uid" : "c3ac3c148252fc91",
+      "parentUid" : "0a172073f03b79b0a5907885444787a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651503645959,
+        "stop" : 1651503650340,
+        "duration" : 4381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "first name", "second name" ]
+    }, {
+      "name" : "Verify Customer creation",
+      "uid" : "21d92abf2dee008b",
+      "parentUid" : "0a172073f03b79b0a5907885444787a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651503650500,
+        "stop" : 1651503651623,
+        "duration" : 1123
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "second name", "first name" ]
+    } ],
+    "uid" : "src.test.java.com.template.project.features.Customer_feature.Validating Customer APIs"
+  } ],
+  "name" : "packages"
+}

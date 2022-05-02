@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c3ac3c148252fc91",
+  "name" : "Verify Customer creation",
+  "time" : {
+    "start" : 1651503645959,
+    "stop" : 1651503650340,
+    "duration" : 4381
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "21d92abf2dee008b",
+  "name" : "Verify Customer creation",
+  "time" : {
+    "start" : 1651503650500,
+    "stop" : 1651503651623,
+    "duration" : 1123
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]
