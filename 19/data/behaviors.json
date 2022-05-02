@@ -3,35 +3,56 @@
   "children" : [ {
     "name" : "Validating Customer APIs",
     "children" : [ {
-      "name" : "Verify Customer creation",
+      "name" : "Verify Customer data retrieval",
       "children" : [ {
-        "name" : "Verify Customer creation",
-        "uid" : "b8f2637c3979a09e",
-        "parentUid" : "d4c6b18469f1fd3a851a0d5994715a7b",
+        "name" : "Verify Customer data retrieval",
+        "uid" : "bbd1f173043d4c29",
+        "parentUid" : "9ca3adc62fd42ba78519b466467843d2",
         "status" : "passed",
         "time" : {
-          "start" : 1651502306328,
-          "stop" : 1651502310700,
-          "duration" : 4372
+          "start" : 1651502305919,
+          "stop" : 1651502310673,
+          "duration" : 4754
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "first name", "second name" ]
-      }, {
-        "name" : "Verify Customer creation",
-        "uid" : "8a2e76f459e7deb2",
-        "parentUid" : "d4c6b18469f1fd3a851a0d5994715a7b",
+      } ],
+      "uid" : "9ca3adc62fd42ba78519b466467843d2"
+    }, {
+      "name" : "Verify Customer data modification",
+      "children" : [ {
+        "name" : "Verify Customer data modification",
+        "uid" : "82555fe44dc5ff06",
+        "parentUid" : "149688bba37faa133ab921052ea701ec",
         "status" : "passed",
         "time" : {
-          "start" : 1651502310806,
-          "stop" : 1651502312324,
-          "duration" : 1518
+          "start" : 1651502310825,
+          "stop" : 1651502313369,
+          "duration" : 2544
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "second name", "first name" ]
+        "parameters" : [ ]
       } ],
-      "uid" : "d4c6b18469f1fd3a851a0d5994715a7b"
+      "uid" : "149688bba37faa133ab921052ea701ec"
+    }, {
+      "name" : "Delete Customer data",
+      "children" : [ {
+        "name" : "Delete Customer data",
+        "uid" : "dfa676c6beeb0045",
+        "parentUid" : "d253df22a05f9741747fceb0d6c95e77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651502313385,
+          "stop" : 1651502314847,
+          "duration" : 1462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d253df22a05f9741747fceb0d6c95e77"
     } ],
     "uid" : "b5ea2a011552d68cd6d446eec0eb0757"
   } ],
