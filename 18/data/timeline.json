@@ -1,39 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az72-668",
+    "name" : "fv-az121-645",
     "children" : [ {
-      "name" : "2267@fv-az72-668.main(1)",
+      "name" : "2312@fv-az121-645.main(1)",
       "children" : [ {
-        "name" : "Verify Customer creation",
-        "uid" : "b388bda0ef4196cd",
-        "parentUid" : "cab4469fee829f21a80be090200f214d",
+        "name" : "Delete Customer data",
+        "uid" : "f2487084c9cf447d",
+        "parentUid" : "040ee0dc36de6e7f483f15ab2e02d8e9",
         "status" : "passed",
         "time" : {
-          "start" : 1651501771883,
-          "stop" : 1651501775940,
-          "duration" : 4057
+          "start" : 1651501794080,
+          "stop" : 1651501795558,
+          "duration" : 1478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Customer data retrieval",
+        "uid" : "8a218a78c6d40089",
+        "parentUid" : "040ee0dc36de6e7f483f15ab2e02d8e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651501786644,
+          "stop" : 1651501791432,
+          "duration" : 4788
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "first name", "second name" ]
       }, {
-        "name" : "Verify Customer creation",
-        "uid" : "1c813f13f2a7db1",
-        "parentUid" : "cab4469fee829f21a80be090200f214d",
+        "name" : "Verify Customer data modification",
+        "uid" : "deed58ac8fc69ffc",
+        "parentUid" : "040ee0dc36de6e7f483f15ab2e02d8e9",
         "status" : "passed",
         "time" : {
-          "start" : 1651501776108,
-          "stop" : 1651501777168,
-          "duration" : 1060
+          "start" : 1651501791579,
+          "stop" : 1651501794060,
+          "duration" : 2481
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "second name", "first name" ]
+        "parameters" : [ ]
       } ],
-      "uid" : "cab4469fee829f21a80be090200f214d"
+      "uid" : "040ee0dc36de6e7f483f15ab2e02d8e9"
     } ],
-    "uid" : "6dc93b332d3253a2c709ab1ca7ff11e7"
+    "uid" : "673145fbc19b1829e930a0654dd9f6e5"
   } ],
   "name" : "timeline"
 }
