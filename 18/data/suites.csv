@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 02 14:29:36 GMT 2022","Mon May 02 14:29:37 GMT 2022","1060","","Validating Customer APIs","","Verify Customer creation","","Verify Customer creation",""
+"passed","Mon May 02 14:29:31 GMT 2022","Mon May 02 14:29:35 GMT 2022","4057","","Validating Customer APIs","","Verify Customer creation","","Verify Customer creation",""
