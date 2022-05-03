@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Validating Customer APIs",
+    "children" : [ {
+      "name" : "Verify Customer creation",
+      "children" : [ {
+        "name" : "Verify Customer creation",
+        "uid" : "b97be5bccce40a7f",
+        "parentUid" : "d4c6b18469f1fd3a851a0d5994715a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651564357679,
+          "stop" : 1651564361535,
+          "duration" : 3856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "first name", "second name" ]
+      }, {
+        "name" : "Verify Customer creation",
+        "uid" : "f16400e0dcc4c5f9",
+        "parentUid" : "d4c6b18469f1fd3a851a0d5994715a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651564361650,
+          "stop" : 1651564362724,
+          "duration" : 1074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "second name", "first name" ]
+      } ],
+      "uid" : "d4c6b18469f1fd3a851a0d5994715a7b"
+    } ],
+    "uid" : "b5ea2a011552d68cd6d446eec0eb0757"
+  } ],
+  "name" : "behaviors"
+}
