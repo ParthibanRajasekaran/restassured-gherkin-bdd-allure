@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az72-317",
+    "children" : [ {
+      "name" : "2287@fv-az72-317.main(1)",
+      "children" : [ {
+        "name" : "Verify Customer creation",
+        "uid" : "40c525af7ac6b12b",
+        "parentUid" : "3db3ed9b5792a7215f3b7aa4a3ee3536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651564434668,
+          "stop" : 1651564435765,
+          "duration" : 1097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "second name", "first name" ]
+      }, {
+        "name" : "Verify Customer creation",
+        "uid" : "aaa4a9552ab23788",
+        "parentUid" : "3db3ed9b5792a7215f3b7aa4a3ee3536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651564429675,
+          "stop" : 1651564434517,
+          "duration" : 4842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "first name", "second name" ]
+      } ],
+      "uid" : "3db3ed9b5792a7215f3b7aa4a3ee3536"
+    } ],
+    "uid" : "b2daa24919a2c61fb67acdcb472783c2"
+  } ],
+  "name" : "timeline"
+}
