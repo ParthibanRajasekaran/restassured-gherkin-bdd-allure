@@ -1,12 +1,12 @@
 {
-  "uid" : "d19ac4ca84f889c6",
+  "uid" : "50930f0b083c1017",
   "name" : "Verify Customer data modification",
   "fullName" : "Validating Customer APIs: Verify Customer data modification",
   "historyId" : "9f1a4badcfa7319c5df848d848b9f4bc",
   "time" : {
-    "start" : 1651573208649,
-    "stop" : 1651573211107,
-    "duration" : 2458
+    "start" : 1651658987268,
+    "stop" : 1651658989738,
+    "duration" : 2470
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,8 +17,8 @@
     "steps" : [ {
       "name" : "Given  User calls createCustomer with \"firstName\" and \"lastName\"",
       "time" : {
-        "start" : 1651573208649,
-        "stop" : 1651573209145,
+        "start" : 1651658987268,
+        "stop" : 1651658987764,
         "duration" : 496
       },
       "status" : "passed",
@@ -32,9 +32,9 @@
     }, {
       "name" : "When  User calls updateCustomerDetails with \"updatedFirstName\" and \"updatedLastName\"",
       "time" : {
-        "start" : 1651573209145,
-        "stop" : 1651573209628,
-        "duration" : 483
+        "start" : 1651658987765,
+        "stop" : 1651658988259,
+        "duration" : 494
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,8 +47,8 @@
     }, {
       "name" : "Then  the API response is \"success\" with status code \"200\"",
       "time" : {
-        "start" : 1651573209630,
-        "stop" : 1651573209631,
+        "start" : 1651658988260,
+        "stop" : 1651658988261,
         "duration" : 1
       },
       "status" : "passed",
@@ -62,9 +62,9 @@
     }, {
       "name" : "When  User calls getCustomerDetails",
       "time" : {
-        "start" : 1651573209631,
-        "stop" : 1651573210100,
-        "duration" : 469
+        "start" : 1651658988261,
+        "stop" : 1651658988754,
+        "duration" : 493
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Then  \"firstname\" in response body is \"updatedFirstName\"",
       "time" : {
-        "start" : 1651573210101,
-        "stop" : 1651573210110,
-        "duration" : 9
+        "start" : 1651658988755,
+        "stop" : 1651658988765,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "And  \"lastname\" in response body is \"updatedLastName\"",
       "time" : {
-        "start" : 1651573210110,
-        "stop" : 1651573210120,
-        "duration" : 10
+        "start" : 1651658988766,
+        "stop" : 1651658988774,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -115,9 +115,9 @@
   "afterStages" : [ {
     "name" : "com.template.project.stepDefinitions.Hooks.afterScenario()",
     "time" : {
-      "start" : 1651573210120,
-      "stop" : 1651573211106,
-      "duration" : 986
+      "start" : 1651658988774,
+      "stop" : 1651658989738,
+      "duration" : 964
     },
     "status" : "passed",
     "steps" : [ ],
@@ -136,10 +136,10 @@
     "value" : "blocker"
   }, {
     "name" : "host",
-    "value" : "fv-az135-373"
+    "value" : "fv-az131-180"
   }, {
     "name" : "thread",
-    "value" : "2304@fv-az135-373.main(1)"
+    "value" : "2471@fv-az131-180.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validating Customer APIs"
@@ -181,11 +181,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 26,
+        "passed" : 27,
         "unknown" : 0,
-        "total" : 26
+        "total" : 27
       },
       "items" : [ {
+        "uid" : "d19ac4ca84f889c6",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/2//#testresult/d19ac4ca84f889c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651573208649,
+          "stop" : 1651573211107,
+          "duration" : 2458
+        }
+      }, {
         "uid" : "80d65ad75a438fd9",
         "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/3//#testresult/80d65ad75a438fd9",
         "status" : "passed",
@@ -356,19 +365,10 @@
           "stop" : 1648634835060,
           "duration" : 1802
         }
-      }, {
-        "uid" : "ac4208bdc19a9704",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/7//#testresult/ac4208bdc19a9704",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648630626815,
-          "stop" : 1648630629537,
-          "duration" : 2722
-        }
       } ]
     },
     "tags" : [ "Customer" ]
   },
-  "source" : "d19ac4ca84f889c6.json",
+  "source" : "50930f0b083c1017.json",
   "parameterValues" : [ ]
 }
