@@ -1,12 +1,12 @@
 {
-  "uid" : "2978b3866480f20d",
+  "uid" : "f706e611dd1a7f9f",
   "name" : "Delete Customer data",
   "fullName" : "Validating Customer APIs: Delete Customer data",
   "historyId" : "b12c3e178541cb66914ed2b8a15d7d20",
   "time" : {
-    "start" : 1651658989759,
-    "stop" : 1651658991216,
-    "duration" : 1457
+    "start" : 1652091002748,
+    "stop" : 1652091004219,
+    "duration" : 1471
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "Given  User calls createCustomer with \"firstName\" and \"lastName\"",
       "time" : {
-        "start" : 1651658989760,
-        "stop" : 1651658990266,
-        "duration" : 506
+        "start" : 1652091002748,
+        "stop" : 1652091003237,
+        "duration" : 489
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,9 +32,9 @@
     }, {
       "name" : "When  User calls deleteCustomerDetails",
       "time" : {
-        "start" : 1651658990266,
-        "stop" : 1651658990735,
-        "duration" : 469
+        "start" : 1652091003237,
+        "stop" : 1652091003713,
+        "duration" : 476
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,8 +47,8 @@
     }, {
       "name" : "Then  the API response is \"success\" with status code \"200\"",
       "time" : {
-        "start" : 1651658990735,
-        "stop" : 1651658990736,
+        "start" : 1652091003714,
+        "stop" : 1652091003715,
         "duration" : 1
       },
       "status" : "passed",
@@ -62,9 +62,9 @@
     }, {
       "name" : "When  User calls getCustomerDetails",
       "time" : {
-        "start" : 1651658990736,
-        "stop" : 1651658991214,
-        "duration" : 478
+        "start" : 1652091003715,
+        "stop" : 1652091004217,
+        "duration" : 502
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,8 +77,8 @@
     }, {
       "name" : "Then  the API response is \"failure\" with status code \"404\"",
       "time" : {
-        "start" : 1651658991215,
-        "stop" : 1651658991215,
+        "start" : 1652091004218,
+        "stop" : 1652091004218,
         "duration" : 0
       },
       "status" : "passed",
@@ -109,10 +109,10 @@
     "value" : "Deletion"
   }, {
     "name" : "host",
-    "value" : "fv-az131-180"
+    "value" : "fv-az121-317"
   }, {
     "name" : "thread",
-    "value" : "2471@fv-az131-180.main(1)"
+    "value" : "2396@fv-az121-317.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validating Customer APIs"
@@ -154,11 +154,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 27,
+        "passed" : 28,
         "unknown" : 0,
-        "total" : 27
+        "total" : 28
       },
       "items" : [ {
+        "uid" : "2978b3866480f20d",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/4//#testresult/2978b3866480f20d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651658989759,
+          "stop" : 1651658991216,
+          "duration" : 1457
+        }
+      }, {
         "uid" : "6318a42d8faf5f53",
         "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/2//#testresult/6318a42d8faf5f53",
         "status" : "passed",
@@ -329,19 +338,10 @@
           "stop" : 1649066862094,
           "duration" : 1054
         }
-      }, {
-        "uid" : "ba012cc7743cfe26",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/8//#testresult/ba012cc7743cfe26",
-        "status" : "passed",
-        "time" : {
-          "start" : 1648634835081,
-          "stop" : 1648634836149,
-          "duration" : 1068
-        }
       } ]
     },
     "tags" : [ "Customer", "Deletion" ]
   },
-  "source" : "2978b3866480f20d.json",
+  "source" : "f706e611dd1a7f9f.json",
   "parameterValues" : [ ]
 }
