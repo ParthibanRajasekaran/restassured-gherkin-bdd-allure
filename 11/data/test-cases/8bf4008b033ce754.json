@@ -1,12 +1,12 @@
 {
-  "uid" : "2274eb4f9d7ebc7a",
+  "uid" : "8bf4008b033ce754",
   "name" : "Verify Customer data retrieval",
   "fullName" : "Validating Customer APIs: Verify Customer data retrieval",
   "historyId" : "dc065e5eadecdb1b67db87fde7373f10",
   "time" : {
-    "start" : 1653473487972,
-    "stop" : 1653473492914,
-    "duration" : 4942
+    "start" : 1653905586729,
+    "stop" : 1653905592559,
+    "duration" : 5830
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "Given  User calls createCustomer with \"first name\" and \"second name\"",
       "time" : {
-        "start" : 1653473487997,
-        "stop" : 1653473491367,
-        "duration" : 3370
+        "start" : 1653905586754,
+        "stop" : 1653905590814,
+        "duration" : 4060
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,9 +32,9 @@
     }, {
       "name" : "When  User calls getCustomerDetails",
       "time" : {
-        "start" : 1653473491371,
-        "stop" : 1653473491861,
-        "duration" : 490
+        "start" : 1653905590823,
+        "stop" : 1653905591429,
+        "duration" : 606
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,8 +47,8 @@
     }, {
       "name" : "Then  the API response is \"success\" with status code \"200\"",
       "time" : {
-        "start" : 1653473491862,
-        "stop" : 1653473491865,
+        "start" : 1653905591430,
+        "stop" : 1653905591433,
         "duration" : 3
       },
       "status" : "passed",
@@ -62,9 +62,9 @@
     }, {
       "name" : "And  \"firstname\" in response body is \"first name\"",
       "time" : {
-        "start" : 1653473491865,
-        "stop" : 1653473491906,
-        "duration" : 41
+        "start" : 1653905591435,
+        "stop" : 1653905591447,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "And  \"lastname\" in response body is \"second name\"",
       "time" : {
-        "start" : 1653473491907,
-        "stop" : 1653473491916,
-        "duration" : 9
+        "start" : 1653905591447,
+        "stop" : 1653905591457,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -100,9 +100,9 @@
   "afterStages" : [ {
     "name" : "com.template.project.stepDefinitions.Hooks.afterScenario()",
     "time" : {
-      "start" : 1653473491917,
-      "stop" : 1653473492913,
-      "duration" : 996
+      "start" : 1653905591459,
+      "stop" : 1653905592557,
+      "duration" : 1098
     },
     "status" : "passed",
     "steps" : [ ],
@@ -121,10 +121,10 @@
     "value" : "blocker"
   }, {
     "name" : "host",
-    "value" : "fv-az127-659"
+    "value" : "fv-az163-438"
   }, {
     "name" : "thread",
-    "value" : "2437@fv-az127-659.main(1)"
+    "value" : "2239@fv-az163-438.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validating Customer APIs"
@@ -172,11 +172,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 33,
+        "passed" : 34,
         "unknown" : 0,
-        "total" : 33
+        "total" : 34
       },
       "items" : [ {
+        "uid" : "2274eb4f9d7ebc7a",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/10//#testresult/2274eb4f9d7ebc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653473487972,
+          "stop" : 1653473492914,
+          "duration" : 4942
+        }
+      }, {
         "uid" : "c7fe3bb435ae5726",
         "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/9//#testresult/c7fe3bb435ae5726",
         "status" : "passed",
@@ -347,19 +356,10 @@
           "stop" : 1650881272868,
           "duration" : 5833
         }
-      }, {
-        "uid" : "39581bea1ce4cd7f",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/14//#testresult/39581bea1ce4cd7f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650449276301,
-          "stop" : 1650449281310,
-          "duration" : 5009
-        }
       } ]
     },
     "tags" : [ "Customer" ]
   },
-  "source" : "2274eb4f9d7ebc7a.json",
+  "source" : "8bf4008b033ce754.json",
   "parameterValues" : [ "first name", "second name" ]
 }
