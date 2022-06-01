@@ -1,4 +1,4 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
 "","Validating Customer APIs","Verify Customer data retrieval","0","0","1","0","0"
-"","Validating Customer APIs","Delete Customer data","0","0","1","0","0"
 "","Validating Customer APIs","Verify Customer data modification","0","0","1","0","0"
+"","Validating Customer APIs","Delete Customer data","0","0","1","0","0"
