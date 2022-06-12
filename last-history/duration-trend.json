@@ -1,3 +1,10 @@
 [ {
+  "buildOrder" : 17,
+  "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/17/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 8550
+  }
+}, {
   "data" : { }
 } ]
