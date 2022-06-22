@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue May 03 07:09:11 GMT 2022","Tue May 03 07:09:16 GMT 2022","5498","","Validating Customer APIs","","Verify Customer creation","","Verify Customer creation",""
-"passed","Tue May 03 07:09:16 GMT 2022","Tue May 03 07:09:18 GMT 2022","1552","","Validating Customer APIs","","Verify Customer creation","","Verify Customer creation",""
+"passed","Wed Jun 22 10:10:27 GMT 2022","Wed Jun 22 10:10:29 GMT 2022","1983","","Validating Customer APIs","","Verify Customer data modification","","Verify Customer data modification",""
+"passed","Wed Jun 22 10:10:22 GMT 2022","Wed Jun 22 10:10:26 GMT 2022","4660","","Validating Customer APIs","","Verify Customer data retrieval","","Verify Customer data retrieval",""
+"passed","Wed Jun 22 10:10:29 GMT 2022","Wed Jun 22 10:10:30 GMT 2022","1152","","Validating Customer APIs","","Delete Customer data","","Delete Customer data",""
