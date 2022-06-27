@@ -1,0 +1,230 @@
+{
+  "uid" : "3f5e3c38d3949c95",
+  "name" : "Verify Customer data retrieval",
+  "fullName" : "Validating Customer APIs: Verify Customer data retrieval",
+  "historyId" : "dc065e5eadecdb1b67db87fde7373f10",
+  "time" : {
+    "start" : 1656324672181,
+    "stop" : 1656324678275,
+    "duration" : 6094
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User calls createCustomer with \"first name\" and \"second name\"",
+      "time" : {
+        "start" : 1656324672217,
+        "stop" : 1656324676639,
+        "duration" : 4422
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  User calls getCustomerDetails",
+      "time" : {
+        "start" : 1656324676643,
+        "stop" : 1656324677197,
+        "duration" : 554
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the API response is \"success\" with status code \"200\"",
+      "time" : {
+        "start" : 1656324677197,
+        "stop" : 1656324677200,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  \"firstname\" in response body is \"first name\"",
+      "time" : {
+        "start" : 1656324677201,
+        "stop" : 1656324677212,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  \"lastname\" in response body is \"second name\"",
+      "time" : {
+        "start" : 1656324677213,
+        "stop" : 1656324677227,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "com.template.project.stepDefinitions.Hooks.afterScenario()",
+    "time" : {
+      "start" : 1656324677229,
+      "stop" : 1656324678273,
+      "duration" : 1044
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Customer"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az245-840"
+  }, {
+    "name" : "thread",
+    "value" : "2482@fv-az245-840.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Validating Customer APIs"
+  }, {
+    "name" : "story",
+    "value" : "Verify Customer data retrieval"
+  }, {
+    "name" : "suite",
+    "value" : "Validating Customer APIs"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Customer data retrieval"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/restassured-gherkin-bdd-allure/restassured-gherkin-bdd-allure/src/test/java/com/template/project/features/Customer.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.com.template.project.features.Customer_feature.Validating Customer APIs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "firstName",
+    "value" : "first name"
+  }, {
+    "name" : "lastName",
+    "value" : "second name"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "dfbeda6d8c72b4e9",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/21//#testresult/dfbeda6d8c72b4e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655892622336,
+          "stop" : 1655892626996,
+          "duration" : 4660
+        }
+      }, {
+        "uid" : "5b7eef4f593f231d",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/20//#testresult/5b7eef4f593f231d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655719777801,
+          "stop" : 1655719783618,
+          "duration" : 5817
+        }
+      }, {
+        "uid" : "f4a4a0228f7c073e",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/19//#testresult/f4a4a0228f7c073e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655288044085,
+          "stop" : 1655288049590,
+          "duration" : 5505
+        }
+      }, {
+        "uid" : "c9963857de818c88",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/18//#testresult/c9963857de818c88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655115224314,
+          "stop" : 1655115230532,
+          "duration" : 6218
+        }
+      }, {
+        "uid" : "2c388b28fd8ae550",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/17//#testresult/2c388b28fd8ae550",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655055426857,
+          "stop" : 1655055431566,
+          "duration" : 4709
+        }
+      } ]
+    },
+    "tags" : [ "Customer" ]
+  },
+  "source" : "3f5e3c38d3949c95.json",
+  "parameterValues" : [ "first name", "second name" ]
+}
