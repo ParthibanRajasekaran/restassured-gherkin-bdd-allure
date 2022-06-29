@@ -1,52 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az72-317",
+    "name" : "fv-az36-680",
     "children" : [ {
-      "name" : "2250@fv-az72-317.main(1)",
+      "name" : "2439@fv-az36-680.main(1)",
       "children" : [ {
-        "name" : "Verify Customer data modification",
-        "uid" : "155a1bf9bc981323",
-        "parentUid" : "f612340cdc2b879f014c96e3c14f92c9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1651564363873,
-          "stop" : 1651564365596,
-          "duration" : 1723
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Delete Customer data",
-        "uid" : "56cff2f1c96b5b3f",
-        "parentUid" : "f612340cdc2b879f014c96e3c14f92c9",
+        "uid" : "c4a51d7b45760325",
+        "parentUid" : "47df87869601e8ef08cd41aea78570ac",
         "status" : "passed",
         "time" : {
-          "start" : 1651564365630,
-          "stop" : 1651564366666,
-          "duration" : 1036
+          "start" : 1656497374027,
+          "stop" : 1656497375437,
+          "duration" : 1410
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Verify Customer data retrieval",
-        "uid" : "e61266e6d8a18f9a",
-        "parentUid" : "f612340cdc2b879f014c96e3c14f92c9",
+        "uid" : "6b13213fd4e7c283",
+        "parentUid" : "47df87869601e8ef08cd41aea78570ac",
         "status" : "passed",
         "time" : {
-          "start" : 1651564359126,
-          "stop" : 1651564363759,
-          "duration" : 4633
+          "start" : 1656497366233,
+          "stop" : 1656497371565,
+          "duration" : 5332
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "first name", "second name" ]
+      }, {
+        "name" : "Verify Customer data modification",
+        "uid" : "5ae5df0e43953920",
+        "parentUid" : "47df87869601e8ef08cd41aea78570ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656497371621,
+          "stop" : 1656497374020,
+          "duration" : 2399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
-      "uid" : "f612340cdc2b879f014c96e3c14f92c9"
+      "uid" : "47df87869601e8ef08cd41aea78570ac"
     } ],
-    "uid" : "b2daa24919a2c61fb67acdcb472783c2"
+    "uid" : "94b3448db05db654920187039150cb31"
   } ],
   "name" : "timeline"
 }
