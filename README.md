@@ -65,6 +65,11 @@ Community edition
      ```sh
         mvn clean test -D"cucumber.filter.tags=@Customer and not @Creation"
     ```
+- Generate allure report via command: (target/site/allure-maven-plugin/index.html -> report location)
+    ```sh
+        mvn allure:report
+    ```
+    
  
 [linkedin]: https://www.linkedin.com/in/parthiban-rajasekaran/
 [java]: https://adoptopenjdk.net/
