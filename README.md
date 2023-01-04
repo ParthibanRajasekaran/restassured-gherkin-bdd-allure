@@ -1,6 +1,5 @@
 # restassured-gherkin-bdd-allure
 This is a sample template for, 
-_Cucumber 7 + Junit 4 (main)_
 _Cucumber 7 + Junit 5 (junit5)_
 
   <p align="left">
@@ -22,7 +21,7 @@ _Cucumber 7 + Junit 5 (junit5)_
 <img style="vertical-align:bottom" alt="Java" width="35px" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" /> 
 </td>
 <td>
-Open JDK 11 or higher
+Open JDK 17 or higher
 </td>
 </tr>
 <tr>
@@ -62,9 +61,6 @@ Community edition
 - Clone the project <br />
   ```git clone https://github.com/ParthibanRajasekaran/restassured-gherkin-testng-allure.git```
 - Launch and open the project 'restassured-gherkin-testng-allure' in IntelliJ editor
-- Based on your preference for the JUnit preference pick a branch <br />
-**_main_ - JUnit 4** <br />
-**_junit5_ - JUnit 5** <br />
 - Trigger the test run via the below maven goal:
      ```sh
         mvn clean test -D"cucumber.filter.tags=@Customer and not @Creation"
