@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+} ]
