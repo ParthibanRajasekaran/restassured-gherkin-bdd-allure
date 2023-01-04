@@ -4,7 +4,7 @@ _Cucumber 7 + Junit 5 (junit5)_
 
   <p align="left">
     <a href="https://github.com/ParthibanRajasekaran/restassured-gherkin-bdd-allure/actions">
-      <img alt="Tests Passing" src="https://github.com/ParthibanRajasekaran/restassured-gherkin-bdd-allure/workflows/backend-tests/badge.svg" />
+      <img alt="Tests Passing" src="https://github.com/ParthibanRajasekaran/restassured-gherkin-bdd-allure/workflows/regressionWithCreation/badge.svg" />
     </a>
     <br />
   </p>
