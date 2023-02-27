@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "6a535249a27afa57",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/20//#testresult/6a535249a27afa57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1677492559904,
+        "stop" : 1677492561461,
+        "duration" : 1557
+      }
+    }, {
       "uid" : "1d44b5ba0828a77a",
       "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/19//#testresult/1d44b5ba0828a77a",
       "status" : "passed",
@@ -177,11 +186,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "c5e7a34e93c0c7ad",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/20//#testresult/c5e7a34e93c0c7ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1677492557226,
+        "stop" : 1677492559887,
+        "duration" : 2661
+      }
+    }, {
       "uid" : "13e8b9f78b9b1d0f",
       "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/19//#testresult/13e8b9f78b9b1d0f",
       "status" : "passed",
@@ -350,11 +368,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "2a1a6fb2edd6a370",
+      "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/20//#testresult/2a1a6fb2edd6a370",
+      "status" : "passed",
+      "time" : {
+        "start" : 1677492544661,
+        "stop" : 1677492557150,
+        "duration" : 12489
+      }
+    }, {
       "uid" : "45fa7ccba0475c62",
       "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/19//#testresult/45fa7ccba0475c62",
       "status" : "passed",
