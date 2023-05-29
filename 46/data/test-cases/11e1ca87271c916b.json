@@ -1,12 +1,12 @@
 {
-  "uid" : "40cdb3c1dccc26ee",
+  "uid" : "11e1ca87271c916b",
   "name" : "Verify Customer data retrieval",
   "fullName" : "Validating Customer APIs: Verify Customer data retrieval",
   "historyId" : "71e68d445add4dacf729e7e861b82984",
   "time" : {
-    "start" : 1682330812820,
-    "stop" : 1682330817693,
-    "duration" : 4873
+    "start" : 1685354801861,
+    "stop" : 1685354807017,
+    "duration" : 5156
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "Given  User calls createCustomer with \"first name\" and \"second name\"",
       "time" : {
-        "start" : 1682330812821,
-        "stop" : 1682330816433,
-        "duration" : 3612
+        "start" : 1685354801863,
+        "stop" : 1685354805674,
+        "duration" : 3811
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,9 +32,9 @@
     }, {
       "name" : "When  User calls getCustomerDetails",
       "time" : {
-        "start" : 1682330816434,
-        "stop" : 1682330816848,
-        "duration" : 414
+        "start" : 1685354805676,
+        "stop" : 1685354806135,
+        "duration" : 459
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,9 +47,9 @@
     }, {
       "name" : "Then  the API response is \"success\" with status code \"200\"",
       "time" : {
-        "start" : 1682330816848,
-        "stop" : 1682330816850,
-        "duration" : 2
+        "start" : 1685354806136,
+        "stop" : 1685354806141,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "And  \"firstname\" in response body is \"first name\"",
       "time" : {
-        "start" : 1682330816850,
-        "stop" : 1682330816864,
-        "duration" : 14
+        "start" : 1685354806141,
+        "stop" : 1685354806159,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "And  \"lastname\" in response body is \"second name\"",
       "time" : {
-        "start" : 1682330816864,
-        "stop" : 1682330816877,
-        "duration" : 13
+        "start" : 1685354806159,
+        "stop" : 1685354806169,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -100,9 +100,9 @@
   "afterStages" : [ {
     "name" : "com.template.project.stepDefinitions.Hooks.afterScenario()",
     "time" : {
-      "start" : 1682330816878,
-      "stop" : 1682330817692,
-      "duration" : 814
+      "start" : 1685354806170,
+      "stop" : 1685354807015,
+      "duration" : 845
     },
     "status" : "passed",
     "steps" : [ ],
@@ -121,10 +121,10 @@
     "value" : "blocker"
   }, {
     "name" : "host",
-    "value" : "fv-az336-482"
+    "value" : "fv-az218-883"
   }, {
     "name" : "thread",
-    "value" : "2352@fv-az336-482.main(1)"
+    "value" : "2410@fv-az218-883.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validating Customer APIs"
@@ -172,11 +172,101 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 35,
+        "passed" : 45,
         "unknown" : 0,
-        "total" : 35
+        "total" : 45
       },
       "items" : [ {
+        "uid" : "bcf87ac3a0df0938",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/45//#testresult/bcf87ac3a0df0938",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684922765114,
+          "stop" : 1684922770185,
+          "duration" : 5071
+        }
+      }, {
+        "uid" : "ecd020123fe221f7",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/44//#testresult/ecd020123fe221f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684749996669,
+          "stop" : 1684750000512,
+          "duration" : 3843
+        }
+      }, {
+        "uid" : "198ef82f3e4cc40c",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/43//#testresult/198ef82f3e4cc40c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684317962111,
+          "stop" : 1684317967040,
+          "duration" : 4929
+        }
+      }, {
+        "uid" : "5267f31a5ed2e039",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/42//#testresult/5267f31a5ed2e039",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684145196752,
+          "stop" : 1684145201270,
+          "duration" : 4518
+        }
+      }, {
+        "uid" : "7f870362308caa00",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/41//#testresult/7f870362308caa00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683713144403,
+          "stop" : 1683713148522,
+          "duration" : 4119
+        }
+      }, {
+        "uid" : "d3fd4309822ccebf",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/40//#testresult/d3fd4309822ccebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683540377314,
+          "stop" : 1683540382333,
+          "duration" : 5019
+        }
+      }, {
+        "uid" : "885b98704393adbb",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/39//#testresult/885b98704393adbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683108364527,
+          "stop" : 1683108370025,
+          "duration" : 5498
+        }
+      }, {
+        "uid" : "7e012270be2a45f7",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/38//#testresult/7e012270be2a45f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682935555181,
+          "stop" : 1682935560180,
+          "duration" : 4999
+        }
+      }, {
+        "uid" : "3b8ef673900375b0",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/37//#testresult/3b8ef673900375b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682503605747,
+          "stop" : 1682503611673,
+          "duration" : 5926
+        }
+      }, {
+        "uid" : "40cdb3c1dccc26ee",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/36//#testresult/40cdb3c1dccc26ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1682330812820,
+          "stop" : 1682330817693,
+          "duration" : 4873
+        }
+      }, {
         "uid" : "d12f9ca9aa7b57ea",
         "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/35//#testresult/d12f9ca9aa7b57ea",
         "status" : "passed",
@@ -266,100 +356,10 @@
           "stop" : 1679306868276,
           "duration" : 6195
         }
-      }, {
-        "uid" : "21982d5facd9a691",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/25//#testresult/21982d5facd9a691",
-        "status" : "passed",
-        "time" : {
-          "start" : 1678874834560,
-          "stop" : 1678874840307,
-          "duration" : 5747
-        }
-      }, {
-        "uid" : "5c893fbb5b429a02",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/24//#testresult/5c893fbb5b429a02",
-        "status" : "passed",
-        "time" : {
-          "start" : 1678702066185,
-          "stop" : 1678702071664,
-          "duration" : 5479
-        }
-      }, {
-        "uid" : "1a98a9f3267d875c",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/23//#testresult/1a98a9f3267d875c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1678270068411,
-          "stop" : 1678270072633,
-          "duration" : 4222
-        }
-      }, {
-        "uid" : "c6e552f2a7232086",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/22//#testresult/c6e552f2a7232086",
-        "status" : "passed",
-        "time" : {
-          "start" : 1678097266527,
-          "stop" : 1678097271670,
-          "duration" : 5143
-        }
-      }, {
-        "uid" : "2983336f3d2687c9",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/21//#testresult/2983336f3d2687c9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1677665254944,
-          "stop" : 1677665260051,
-          "duration" : 5107
-        }
-      }, {
-        "uid" : "2a1a6fb2edd6a370",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/20//#testresult/2a1a6fb2edd6a370",
-        "status" : "passed",
-        "time" : {
-          "start" : 1677492544661,
-          "stop" : 1677492557150,
-          "duration" : 12489
-        }
-      }, {
-        "uid" : "45fa7ccba0475c62",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/19//#testresult/45fa7ccba0475c62",
-        "status" : "passed",
-        "time" : {
-          "start" : 1677060465406,
-          "stop" : 1677060470485,
-          "duration" : 5079
-        }
-      }, {
-        "uid" : "2f9049c6f612737a",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/18//#testresult/2f9049c6f612737a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1676887710476,
-          "stop" : 1676887714510,
-          "duration" : 4034
-        }
-      }, {
-        "uid" : "4acd0edb7e62070a",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/17//#testresult/4acd0edb7e62070a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1676455673670,
-          "stop" : 1676455678948,
-          "duration" : 5278
-        }
-      }, {
-        "uid" : "e44d39a43d4f2134",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/16//#testresult/e44d39a43d4f2134",
-        "status" : "passed",
-        "time" : {
-          "start" : 1676282861256,
-          "stop" : 1676282866363,
-          "duration" : 5107
-        }
       } ]
     },
     "tags" : [ "Customer" ]
   },
-  "source" : "40cdb3c1dccc26ee.json",
+  "source" : "11e1ca87271c916b.json",
   "parameterValues" : [ "first name", "second name" ]
 }
