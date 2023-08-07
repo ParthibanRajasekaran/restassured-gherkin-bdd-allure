@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot invoke \"String.replaceAll(String, String)\" because \"customerId\" is null",
+      "children" : [ {
+        "name" : "Verify Customer data retrieval",
+        "uid" : "b5d45f94f2160bc8",
+        "parentUid" : "95ef3d684d87e7e5156ad261cfe4c51e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1691402802895,
+          "stop" : 1691402806983,
+          "duration" : 4088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "first name", "second name" ]
+      }, {
+        "name" : "Verify Customer data modification",
+        "uid" : "7e39e06281d9ec6b",
+        "parentUid" : "95ef3d684d87e7e5156ad261cfe4c51e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1691402807074,
+          "stop" : 1691402807502,
+          "duration" : 428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete Customer data",
+        "uid" : "3907c3695b4c81d0",
+        "parentUid" : "95ef3d684d87e7e5156ad261cfe4c51e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1691402807523,
+          "stop" : 1691402807944,
+          "duration" : 421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95ef3d684d87e7e5156ad261cfe4c51e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
