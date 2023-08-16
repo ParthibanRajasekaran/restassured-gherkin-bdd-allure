@@ -1,0 +1,380 @@
+{
+  "uid" : "f9fdb935099ac7ba",
+  "name" : "Verify Customer data retrieval",
+  "fullName" : "Validating Customer APIs: Verify Customer data retrieval",
+  "historyId" : "71e68d445add4dacf729e7e861b82984",
+  "time" : {
+    "start" : 1692180286277,
+    "stop" : 1692180289593,
+    "duration" : 3316
+  },
+  "status" : "failed",
+  "statusMessage" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+  "statusTrace" : "java.lang.AssertionError: 1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)\n\tat io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat io.restassured.internal.ResponseSpecificationImpl.contentType(ResponseSpecificationImpl.groovy:435)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.contentType(ValidatableResponseOptionsImpl.java:220)\n\tat com.template.project.customer.request.CustomerRequests.createCustomer(CustomerRequests.java:41)\n\tat com.template.project.stepDefinitions.CustomerStepDefinition.user_calls_createcustomer_with_something_and_something(CustomerStepDefinition.java:26)\n\tat ✽.User calls createCustomer with \"first name\" and \"second name\"(file:///home/runner/work/restassured-gherkin-bdd-allure/restassured-gherkin-bdd-allure/src/test/java/com/template/project/features/Customer.feature:19)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+    "statusTrace" : "java.lang.AssertionError: 1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)\n\tat io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat io.restassured.internal.ResponseSpecificationImpl.contentType(ResponseSpecificationImpl.groovy:435)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.contentType(ValidatableResponseOptionsImpl.java:220)\n\tat com.template.project.customer.request.CustomerRequests.createCustomer(CustomerRequests.java:41)\n\tat com.template.project.stepDefinitions.CustomerStepDefinition.user_calls_createcustomer_with_something_and_something(CustomerStepDefinition.java:26)\n\tat ✽.User calls createCustomer with \"first name\" and \"second name\"(file:///home/runner/work/restassured-gherkin-bdd-allure/restassured-gherkin-bdd-allure/src/test/java/com/template/project/features/Customer.feature:19)\n",
+    "steps" : [ {
+      "name" : "Given  User calls createCustomer with \"first name\" and \"second name\"",
+      "time" : {
+        "start" : 1692180286279,
+        "stop" : 1692180289581,
+        "duration" : 3302
+      },
+      "status" : "failed",
+      "statusMessage" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+      "statusTrace" : "java.lang.AssertionError: 1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)\n\tat io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat io.restassured.internal.ResponseSpecificationImpl.contentType(ResponseSpecificationImpl.groovy:435)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.contentType(ValidatableResponseOptionsImpl.java:220)\n\tat com.template.project.customer.request.CustomerRequests.createCustomer(CustomerRequests.java:41)\n\tat com.template.project.stepDefinitions.CustomerStepDefinition.user_calls_createcustomer_with_something_and_something(CustomerStepDefinition.java:26)\n\tat ✽.User calls createCustomer with \"first name\" and \"second name\"(file:///home/runner/work/restassured-gherkin-bdd-allure/restassured-gherkin-bdd-allure/src/test/java/com/template/project/features/Customer.feature:19)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When  User calls getCustomerDetails",
+      "time" : {
+        "start" : 1692180289584,
+        "stop" : 1692180289585,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the API response is \"success\" with status code \"200\"",
+      "time" : {
+        "start" : 1692180289586,
+        "stop" : 1692180289586,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  \"firstname\" in response body is \"first name\"",
+      "time" : {
+        "start" : 1692180289587,
+        "stop" : 1692180289587,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  \"lastname\" in response body is \"second name\"",
+      "time" : {
+        "start" : 1692180289587,
+        "stop" : 1692180289588,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "com.template.project.stepDefinitions.Hooks.afterScenario()",
+    "time" : {
+      "start" : 1692180289589,
+      "stop" : 1692180289591,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Customer"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az422-755"
+  }, {
+    "name" : "thread",
+    "value" : "2266@fv-az422-755.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Validating Customer APIs"
+  }, {
+    "name" : "story",
+    "value" : "Verify Customer data retrieval"
+  }, {
+    "name" : "suite",
+    "value" : "Validating Customer APIs"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Customer data retrieval"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/restassured-gherkin-bdd-allure/restassured-gherkin-bdd-allure/src/test/java/com/template/project/features/Customer.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.com.template.project.features.Customer_feature.Validating Customer APIs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "firstName",
+    "value" : "first name"
+  }, {
+    "name" : "lastName",
+    "value" : "second name"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 62,
+        "unknown" : 0,
+        "total" : 68
+      },
+      "items" : [ {
+        "uid" : "6b67c9b074d7e5b5",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/68//#testresult/6b67c9b074d7e5b5",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1692007571896,
+          "stop" : 1692007574377,
+          "duration" : 2481
+        }
+      }, {
+        "uid" : "4c8283e6b4dcd418",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/67//#testresult/4c8283e6b4dcd418",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"String.replaceAll(String, String)\" because \"customerId\" is null",
+        "time" : {
+          "start" : 1691575588221,
+          "stop" : 1691575591077,
+          "duration" : 2856
+        }
+      }, {
+        "uid" : "b5d45f94f2160bc8",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/66//#testresult/b5d45f94f2160bc8",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"String.replaceAll(String, String)\" because \"customerId\" is null",
+        "time" : {
+          "start" : 1691402802895,
+          "stop" : 1691402806983,
+          "duration" : 4088
+        }
+      }, {
+        "uid" : "d70798c32ee5c58a",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/65//#testresult/d70798c32ee5c58a",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"String.replaceAll(String, String)\" because \"customerId\" is null",
+        "time" : {
+          "start" : 1690970793689,
+          "stop" : 1690970796504,
+          "duration" : 2815
+        }
+      }, {
+        "uid" : "b705c9bcef3318c5",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/64//#testresult/b705c9bcef3318c5",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"String.replaceAll(String, String)\" because \"customerId\" is null",
+        "time" : {
+          "start" : 1690798007002,
+          "stop" : 1690798010270,
+          "duration" : 3268
+        }
+      }, {
+        "uid" : "d96b67428cc7b5c3",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/63//#testresult/d96b67428cc7b5c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690365944981,
+          "stop" : 1690365950724,
+          "duration" : 5743
+        }
+      }, {
+        "uid" : "c1e68453d744cdc4",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/62//#testresult/c1e68453d744cdc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690193121516,
+          "stop" : 1690193125301,
+          "duration" : 3785
+        }
+      }, {
+        "uid" : "535baa37c833922f",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/61//#testresult/535baa37c833922f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689761187999,
+          "stop" : 1689761191788,
+          "duration" : 3789
+        }
+      }, {
+        "uid" : "8524fa9c82e5cbad",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/60//#testresult/8524fa9c82e5cbad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689588477168,
+          "stop" : 1689588481105,
+          "duration" : 3937
+        }
+      }, {
+        "uid" : "fb66e8c1b71fddfe",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/59//#testresult/fb66e8c1b71fddfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689156437585,
+          "stop" : 1689156441498,
+          "duration" : 3913
+        }
+      }, {
+        "uid" : "9d9324fba9792a0e",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/58//#testresult/9d9324fba9792a0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688983684090,
+          "stop" : 1688983688650,
+          "duration" : 4560
+        }
+      }, {
+        "uid" : "f38be444304ba132",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/57//#testresult/f38be444304ba132",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688551653255,
+          "stop" : 1688551657766,
+          "duration" : 4511
+        }
+      }, {
+        "uid" : "b9795de791abd4c2",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/56//#testresult/b9795de791abd4c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688378874268,
+          "stop" : 1688378880745,
+          "duration" : 6477
+        }
+      }, {
+        "uid" : "5c8a5a008f924919",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/55//#testresult/5c8a5a008f924919",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687946821390,
+          "stop" : 1687946825235,
+          "duration" : 3845
+        }
+      }, {
+        "uid" : "d7cb3b2aef30da84",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/54//#testresult/d7cb3b2aef30da84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687774068927,
+          "stop" : 1687774074042,
+          "duration" : 5115
+        }
+      }, {
+        "uid" : "a2e0f958b9bf6a07",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/53//#testresult/a2e0f958b9bf6a07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687341900426,
+          "stop" : 1687341906333,
+          "duration" : 5907
+        }
+      }, {
+        "uid" : "a60f161eeb0ac9d1",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/52//#testresult/a60f161eeb0ac9d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687169233887,
+          "stop" : 1687169238279,
+          "duration" : 4392
+        }
+      }, {
+        "uid" : "3edd0e02e3da6311",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/51//#testresult/3edd0e02e3da6311",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686737149978,
+          "stop" : 1686737154508,
+          "duration" : 4530
+        }
+      }, {
+        "uid" : "be733bd1d2a99c6e",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/50//#testresult/be733bd1d2a99c6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686564403976,
+          "stop" : 1686564408520,
+          "duration" : 4544
+        }
+      }, {
+        "uid" : "dac41c173d2d8d0b",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/49//#testresult/dac41c173d2d8d0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686132301490,
+          "stop" : 1686132305373,
+          "duration" : 3883
+        }
+      } ]
+    },
+    "tags" : [ "Customer" ]
+  },
+  "source" : "f9fdb935099ac7ba.json",
+  "parameterValues" : [ "first name", "second name" ]
+}
