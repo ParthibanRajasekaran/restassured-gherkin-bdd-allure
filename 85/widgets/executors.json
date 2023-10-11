@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure",
+  "buildOrder" : 85,
+  "buildName" : "GitHub Actions Run #6481023287",
+  "buildUrl" : "https://github.com/ParthibanRajasekaran/restassured-gherkin-bdd-allure/actions/runs/6481023287",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/85/"
+} ]
