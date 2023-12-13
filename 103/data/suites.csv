@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Dec 13 10:07:27 GMT 2023","Wed Dec 13 10:07:27 GMT 2023","356","","Validating Customer APIs","","Delete Customer data","","Delete Customer data",""
+"failed","Wed Dec 13 10:07:23 GMT 2023","Wed Dec 13 10:07:26 GMT 2023","3226","","Validating Customer APIs","","Verify Customer data retrieval","","Verify Customer data retrieval",""
+"failed","Wed Dec 13 10:07:26 GMT 2023","Wed Dec 13 10:07:27 GMT 2023","358","","Validating Customer APIs","","Verify Customer data modification","","Verify Customer data modification",""
