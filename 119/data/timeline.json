@@ -1,52 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1242-713",
+    "name" : "fv-az568-816",
     "children" : [ {
-      "name" : "2304@fv-az1242-713.main(1)",
+      "name" : "2234@fv-az568-816.main(1)",
       "children" : [ {
         "name" : "Verify Customer data retrieval",
-        "uid" : "e7442c2631e987a3",
-        "parentUid" : "8c2d24b17fcc2fc33a79aabcacf7af41",
+        "uid" : "72667ac78a0fe6a1",
+        "parentUid" : "178476744e35835e0a94d97e900dc8fb",
         "status" : "failed",
         "time" : {
-          "start" : 1704276414865,
-          "stop" : 1704276417675,
-          "duration" : 2810
+          "start" : 1707300448604,
+          "stop" : 1707300451090,
+          "duration" : 2486
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "first name", "second name" ]
       }, {
         "name" : "Verify Customer data modification",
-        "uid" : "bcb8cd7379e0b92b",
-        "parentUid" : "8c2d24b17fcc2fc33a79aabcacf7af41",
+        "uid" : "76d84ae26105689",
+        "parentUid" : "178476744e35835e0a94d97e900dc8fb",
         "status" : "failed",
         "time" : {
-          "start" : 1704276417741,
-          "stop" : 1704276418105,
-          "duration" : 364
+          "start" : 1707300451144,
+          "stop" : 1707300451617,
+          "duration" : 473
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete Customer data",
-        "uid" : "4c0abfbfc79c7321",
-        "parentUid" : "8c2d24b17fcc2fc33a79aabcacf7af41",
+        "uid" : "837aee32dece29b0",
+        "parentUid" : "178476744e35835e0a94d97e900dc8fb",
         "status" : "failed",
         "time" : {
-          "start" : 1704276418115,
-          "stop" : 1704276418465,
-          "duration" : 350
+          "start" : 1707300451629,
+          "stop" : 1707300452114,
+          "duration" : 485
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "8c2d24b17fcc2fc33a79aabcacf7af41"
+      "uid" : "178476744e35835e0a94d97e900dc8fb"
     } ],
-    "uid" : "0efb1d16c59b612dc9d8b167a11e7171"
+    "uid" : "15a0281fd542bfbc68bbfb96f6429416"
   } ],
   "name" : "timeline"
 }
