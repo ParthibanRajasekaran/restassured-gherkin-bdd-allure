@@ -1,0 +1,60 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Validating Customer APIs",
+    "children" : [ {
+      "name" : "Verify Customer data retrieval",
+      "children" : [ {
+        "name" : "Verify Customer data retrieval",
+        "uid" : "af9d87d1108bede2",
+        "parentUid" : "9ca3adc62fd42ba78519b466467843d2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714558042713,
+          "stop" : 1714558045961,
+          "duration" : 3248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "first name", "second name" ]
+      } ],
+      "uid" : "9ca3adc62fd42ba78519b466467843d2"
+    }, {
+      "name" : "Verify Customer data modification",
+      "children" : [ {
+        "name" : "Verify Customer data modification",
+        "uid" : "ff5a36496b107aef",
+        "parentUid" : "149688bba37faa133ab921052ea701ec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714558046018,
+          "stop" : 1714558046387,
+          "duration" : 369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "149688bba37faa133ab921052ea701ec"
+    }, {
+      "name" : "Delete Customer data",
+      "children" : [ {
+        "name" : "Delete Customer data",
+        "uid" : "c8fcadccf36b97ae",
+        "parentUid" : "d253df22a05f9741747fceb0d6c95e77",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714558046398,
+          "stop" : 1714558046747,
+          "duration" : 349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d253df22a05f9741747fceb0d6c95e77"
+    } ],
+    "uid" : "b5ea2a011552d68cd6d446eec0eb0757"
+  } ],
+  "name" : "behaviors"
+}
