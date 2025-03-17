@@ -1,12 +1,12 @@
 {
-  "uid" : "6c8a2a051ed426af",
+  "uid" : "dda3b48d529b74e4",
   "name" : "Verify Customer data modification",
   "fullName" : "Validating Customer APIs: Verify Customer data modification",
   "historyId" : "7f07ea992056c5dd984e5e699391e01a",
   "time" : {
-    "start" : 1739182193323,
-    "stop" : 1739182193629,
-    "duration" : 306
+    "start" : 1742206202406,
+    "stop" : 1742206202792,
+    "duration" : 386
   },
   "status" : "failed",
   "statusMessage" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "Given  User calls createCustomer with \"firstName\" and \"lastName\"",
       "time" : {
-        "start" : 1739182193323,
-        "stop" : 1739182193625,
-        "duration" : 302
+        "start" : 1742206202406,
+        "stop" : 1742206202788,
+        "duration" : 382
       },
       "status" : "failed",
       "statusMessage" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
@@ -38,8 +38,8 @@
     }, {
       "name" : "When  User calls updateCustomerDetails with \"updatedFirstName\" and \"updatedLastName\"",
       "time" : {
-        "start" : 1739182193626,
-        "stop" : 1739182193626,
+        "start" : 1742206202789,
+        "stop" : 1742206202789,
         "duration" : 0
       },
       "status" : "skipped",
@@ -53,9 +53,9 @@
     }, {
       "name" : "Then  the API response is \"success\" with status code \"200\"",
       "time" : {
-        "start" : 1739182193626,
-        "stop" : 1739182193627,
-        "duration" : 1
+        "start" : 1742206202790,
+        "stop" : 1742206202790,
+        "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
@@ -68,8 +68,8 @@
     }, {
       "name" : "When  User calls getCustomerDetails",
       "time" : {
-        "start" : 1739182193627,
-        "stop" : 1739182193627,
+        "start" : 1742206202790,
+        "stop" : 1742206202790,
         "duration" : 0
       },
       "status" : "skipped",
@@ -83,9 +83,9 @@
     }, {
       "name" : "Then  \"firstname\" in response body is \"updatedFirstName\"",
       "time" : {
-        "start" : 1739182193627,
-        "stop" : 1739182193627,
-        "duration" : 0
+        "start" : 1742206202790,
+        "stop" : 1742206202791,
+        "duration" : 1
       },
       "status" : "skipped",
       "steps" : [ ],
@@ -98,8 +98,8 @@
     }, {
       "name" : "And  \"lastname\" in response body is \"updatedLastName\"",
       "time" : {
-        "start" : 1739182193628,
-        "stop" : 1739182193628,
+        "start" : 1742206202791,
+        "stop" : 1742206202791,
         "duration" : 0
       },
       "status" : "skipped",
@@ -121,8 +121,8 @@
   "afterStages" : [ {
     "name" : "com.template.project.stepDefinitions.Hooks.afterScenario()",
     "time" : {
-      "start" : 1739182193628,
-      "stop" : 1739182193628,
+      "start" : 1742206202791,
+      "stop" : 1742206202791,
       "duration" : 0
     },
     "status" : "passed",
@@ -142,10 +142,10 @@
     "value" : "blocker"
   }, {
     "name" : "host",
-    "value" : "fv-az1444-488"
+    "value" : "fv-az1944-682"
   }, {
     "name" : "thread",
-    "value" : "2485@fv-az1444-488.main(1)"
+    "value" : "2472@fv-az1944-682.main(1)"
   }, {
     "name" : "feature",
     "value" : "Validating Customer APIs"
@@ -188,14 +188,114 @@
     } ],
     "history" : {
       "statistic" : {
-        "failed" : 156,
+        "failed" : 166,
         "broken" : 5,
         "skipped" : 0,
         "passed" : 62,
         "unknown" : 0,
-        "total" : 223
+        "total" : 233
       },
       "items" : [ {
+        "uid" : "de90c36e3ff84db5",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/233//#testresult/de90c36e3ff84db5",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1741774181224,
+          "stop" : 1741774181546,
+          "duration" : 322
+        }
+      }, {
+        "uid" : "7a5c520a478df4b5",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/232//#testresult/7a5c520a478df4b5",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1741601313825,
+          "stop" : 1741601314321,
+          "duration" : 496
+        }
+      }, {
+        "uid" : "b13f232ff383d831",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/231//#testresult/b13f232ff383d831",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1741169387672,
+          "stop" : 1741169387991,
+          "duration" : 319
+        }
+      }, {
+        "uid" : "ba0f5c89aeaf71b6",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/230//#testresult/ba0f5c89aeaf71b6",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1740996605751,
+          "stop" : 1740996606057,
+          "duration" : 306
+        }
+      }, {
+        "uid" : "eef8f42823ddd6c0",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/229//#testresult/eef8f42823ddd6c0",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1740564599193,
+          "stop" : 1740564599498,
+          "duration" : 305
+        }
+      }, {
+        "uid" : "e7b42d34d551df7c",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/228//#testresult/e7b42d34d551df7c",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1740391799872,
+          "stop" : 1740391800188,
+          "duration" : 316
+        }
+      }, {
+        "uid" : "526b897902ff2300",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/227//#testresult/526b897902ff2300",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1739959763989,
+          "stop" : 1739959764461,
+          "duration" : 472
+        }
+      }, {
+        "uid" : "d8e58ad85e11e3e",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/226//#testresult/d8e58ad85e11e3e",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1739786999641,
+          "stop" : 1739786999955,
+          "duration" : 314
+        }
+      }, {
+        "uid" : "22b4f3fd63d54564",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/225//#testresult/22b4f3fd63d54564",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1739354935552,
+          "stop" : 1739354935941,
+          "duration" : 389
+        }
+      }, {
+        "uid" : "6c8a2a051ed426af",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/224//#testresult/6c8a2a051ed426af",
+        "status" : "failed",
+        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
+        "time" : {
+          "start" : 1739182193323,
+          "stop" : 1739182193629,
+          "duration" : 306
+        }
+      }, {
         "uid" : "d1b32c6e7a435e57",
         "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/223//#testresult/d1b32c6e7a435e57",
         "status" : "failed",
@@ -295,110 +395,10 @@
           "stop" : 1736158173329,
           "duration" : 514
         }
-      }, {
-        "uid" : "4938a497302545c4",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/213//#testresult/4938a497302545c4",
-        "status" : "failed",
-        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
-        "time" : {
-          "start" : 1735726130359,
-          "stop" : 1735726130731,
-          "duration" : 372
-        }
-      }, {
-        "uid" : "90c9aa6938ac7f95",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/212//#testresult/90c9aa6938ac7f95",
-        "status" : "failed",
-        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
-        "time" : {
-          "start" : 1735553362891,
-          "stop" : 1735553363389,
-          "duration" : 498
-        }
-      }, {
-        "uid" : "547fed19e2a1e140",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/211//#testresult/547fed19e2a1e140",
-        "status" : "failed",
-        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
-        "time" : {
-          "start" : 1735121338747,
-          "stop" : 1735121339062,
-          "duration" : 315
-        }
-      }, {
-        "uid" : "ba4e12ba4e9eed1d",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/210//#testresult/ba4e12ba4e9eed1d",
-        "status" : "failed",
-        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
-        "time" : {
-          "start" : 1734948572882,
-          "stop" : 1734948573197,
-          "duration" : 315
-        }
-      }, {
-        "uid" : "62c535822fed2418",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/209//#testresult/62c535822fed2418",
-        "status" : "failed",
-        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
-        "time" : {
-          "start" : 1734516578815,
-          "stop" : 1734516579313,
-          "duration" : 498
-        }
-      }, {
-        "uid" : "2ff6292b9ebc7b55",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/208//#testresult/2ff6292b9ebc7b55",
-        "status" : "failed",
-        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
-        "time" : {
-          "start" : 1734343823395,
-          "stop" : 1734343823765,
-          "duration" : 370
-        }
-      }, {
-        "uid" : "3017804843ab9d6d",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/207//#testresult/3017804843ab9d6d",
-        "status" : "failed",
-        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
-        "time" : {
-          "start" : 1733911817698,
-          "stop" : 1733911818005,
-          "duration" : 307
-        }
-      }, {
-        "uid" : "f9f65dd80d124a87",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/206//#testresult/f9f65dd80d124a87",
-        "status" : "failed",
-        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
-        "time" : {
-          "start" : 1733739030302,
-          "stop" : 1733739030635,
-          "duration" : 333
-        }
-      }, {
-        "uid" : "bee53b68ac6b884c",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/205//#testresult/bee53b68ac6b884c",
-        "status" : "failed",
-        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
-        "time" : {
-          "start" : 1733307019115,
-          "stop" : 1733307019437,
-          "duration" : 322
-        }
-      }, {
-        "uid" : "426d2e1c6942b65a",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/204//#testresult/426d2e1c6942b65a",
-        "status" : "failed",
-        "statusDetails" : "1 expectation failed.\nExpected content-type \"JSON\" doesn't match actual content-type \"text/html;charset=UTF-8\".\n",
-        "time" : {
-          "start" : 1733134223244,
-          "stop" : 1733134223608,
-          "duration" : 364
-        }
       } ]
     },
     "tags" : [ "Customer" ]
   },
-  "source" : "6c8a2a051ed426af.json",
+  "source" : "dda3b48d529b74e4.json",
   "parameterValues" : [ ]
 }

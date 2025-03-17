@@ -1,30 +1,30 @@
 [ {
-  "uid" : "35af239fccf0692b",
+  "uid" : "8c73800c67460d48",
   "name" : "Delete Customer data",
   "time" : {
-    "start" : 1739182193638,
-    "stop" : 1739182193941,
-    "duration" : 303
+    "start" : 1742206202801,
+    "stop" : 1742206203182,
+    "duration" : 381
   },
   "status" : "failed",
   "severity" : "blocker"
 }, {
-  "uid" : "6c8a2a051ed426af",
+  "uid" : "dda3b48d529b74e4",
   "name" : "Verify Customer data modification",
   "time" : {
-    "start" : 1739182193323,
-    "stop" : 1739182193629,
-    "duration" : 306
+    "start" : 1742206202406,
+    "stop" : 1742206202792,
+    "duration" : 386
   },
   "status" : "failed",
   "severity" : "blocker"
 }, {
-  "uid" : "cc82d599021ea49e",
+  "uid" : "9c511d5d34d0eb1d",
   "name" : "Verify Customer data retrieval",
   "time" : {
-    "start" : 1739182190036,
-    "stop" : 1739182193271,
-    "duration" : 3235
+    "start" : 1742206200111,
+    "stop" : 1742206202350,
+    "duration" : 2239
   },
   "status" : "failed",
   "severity" : "blocker"
