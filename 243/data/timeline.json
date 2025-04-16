@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az2209-74",
+    "children" : [ {
+      "name" : "2486@fv-az2209-74.main(1)",
+      "children" : [ {
+        "name" : "Verify Customer data modification",
+        "uid" : "803a6da41de3dcef",
+        "parentUid" : "baaa059d3618631d9626d25a04d1f624",
+        "status" : "failed",
+        "time" : {
+          "start" : 1744798175141,
+          "stop" : 1744798175468,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Customer data retrieval",
+        "uid" : "4d06bbcfbcbce932",
+        "parentUid" : "baaa059d3618631d9626d25a04d1f624",
+        "status" : "failed",
+        "time" : {
+          "start" : 1744798172739,
+          "stop" : 1744798175082,
+          "duration" : 2343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "first name", "second name" ]
+      }, {
+        "name" : "Delete Customer data",
+        "uid" : "b440c0e9e1178498",
+        "parentUid" : "baaa059d3618631d9626d25a04d1f624",
+        "status" : "failed",
+        "time" : {
+          "start" : 1744798175478,
+          "stop" : 1744798175801,
+          "duration" : 323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "baaa059d3618631d9626d25a04d1f624"
+    } ],
+    "uid" : "e47d99d1053eff731828ed48ded24c4d"
+  } ],
+  "name" : "timeline"
+}
