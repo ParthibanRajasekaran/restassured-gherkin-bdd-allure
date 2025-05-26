@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 254,
+  "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/254/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 3
+  }
+}, {
   "buildOrder" : 253,
   "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/253/",
   "reportName" : "Allure Report with history",
@@ -217,18 +229,6 @@
 }, {
   "buildOrder" : 235,
   "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/235/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "failed" : 3,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 0,
-    "unknown" : 0,
-    "total" : 3
-  }
-}, {
-  "buildOrder" : 234,
-  "reportUrl" : "https://ParthibanRajasekaran.github.io/restassured-gherkin-bdd-allure/234/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 3,
